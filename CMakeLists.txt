@@ -22,7 +22,6 @@ configure_file(version.h.in version.h)
 target_include_directories(
     CMakeTest PUBLIC
     "${PROJECT_BINARY_DIR}"
-    "${PROJECT_SOURCE_DIR}/Library"
 )
 
 target_link_libraries(

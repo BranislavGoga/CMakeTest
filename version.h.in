@@ -1,0 +1,11 @@
+#pragma once
+
+#include <string>
+
+namespace Version
+{
+    const unsigned Major = @CMakeTest_VERSION_MAJOR@;
+    const unsigned Minor = @CMakeTest_VERSION_MINOR@;
+    const unsigned Patch = @CMakeTest_VERSION_PATCH@;
+    const unsigned Tweak = @CMakeTest_VERSION_TWEAK@;
+}

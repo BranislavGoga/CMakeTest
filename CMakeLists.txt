@@ -28,3 +28,13 @@ target_link_libraries(
     CMakeTest PUBLIC 
     Library
     )
+
+install(
+    TARGETS CMakeTest 
+    DESTINATION bin
+    )
+
+install(
+    FILES "${PROJECT_BINARY_DIR}/version.h" 
+    DESTINATION include
+    )
